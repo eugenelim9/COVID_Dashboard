@@ -1,0 +1,225 @@
+@import '~antd/dist/antd.css';
+
+body {
+  font-family: "Lato", "Helvetica Neue", "Helvetica", sans-serif;
+  background-color: sandybrown;
+}
+
+.card {
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.content {
+  flex: 1;
+}
+
+/* start for d3 */
+.axis {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.axis .domain {
+  display: none;
+}
+
+/* end for d3 */
+
+/* start for dash */
+.dash {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid purple;
+  background-color: powderblue;
+  width: 90vw;
+}
+
+.d3-component {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10vh;
+}
+
+.userTitle {
+  background-color: orange;
+  text-align: center;
+}
+
+.master {
+  position: relative;
+  display: flex;
+}
+
+.save {
+  position: absolute;
+  display: block;
+  left: 90%;
+  bottom: 10%;
+}
+
+.state-filter {
+  width: 100%;
+}
+
+.item1 {
+  order: 2;
+  margin-left: 1vw;
+  width: 9vw;
+}
+
+.item1-title {
+  text-indent: 20px;
+  background-color: salmon;
+  width: 100%;
+  font-weight: bold;
+}
+
+.item2-title {
+  text-indent: 40px;
+  background-color: salmon;
+  width: 100%;
+  font-weight: bold;
+}
+
+.sign-out {
+  margin-bottom: 10px;
+  margin-left: 19px;
+  margin-top: 10px;
+}
+/* end for dash */
+
+/* start home page */
+.home-submit {
+  width: 8vw;
+  margin-top: 5px;
+  margin-left: 94px;
+}
+
+.home-header {
+  height: 15vh;
+  top: 0;
+  background-color: #ff7171;
+}
+
+.site-layout {
+  position: relative;
+}
+
+.home-forgot {
+  margin-left: 20px;
+}
+
+.home-signin {
+  margin-right: 4px;
+}
+
+.sign-forgot {
+  height: 15vh;
+  width: 50%;
+  display: inline-block;
+  margin-left: 77vw;
+}
+
+.big-daddo {
+  width: 100%;
+  display: flex;
+  height: 15vh;
+}
+
+.le-foot {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 7vh;
+  background-color: #aaaaaa;
+}
+
+.home-signform {
+  height: 4vh;
+}
+
+/* end home page */
+
+/* viz card */
+.pic {
+  margin-top: 5px;
+  height: 18vh;
+  width: 18vw;
+}
+
+.card-div {
+  background-color: palegreen;
+  width: 20vw;
+  margin: .5rem;
+  border-radius: 5px;
+}
+/* end viz card */
+
+.error {
+  margin-top: 140px;
+}
+
+.home-title {
+  float: left;
+  width: 60%;
+}
+
+.lit {
+  margin-top: 3vh;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.chart {
+  display: none;
+}
+
+.home-div {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.switch {
+  padding-left: 8px;
+  margin-top: 10px;
+  width: 6vw;
+  font-weight: bold;
+  background-color: salmon;
+}
+
+.switchy {
+  background-color: peachpuff;
+  padding: 20px;
+}
+
+.goHome {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.others-dash {
+  display: inline;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.save-button {
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  font-family: monospace;
+  font-weight: bold;
+}
